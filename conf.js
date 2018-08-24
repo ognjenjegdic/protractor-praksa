@@ -9,7 +9,7 @@ exports.config = {
     baseUrl: 'http://demo.prestashop.com/en/?view=front',
 
     specs: ['./tests/loginWithProperAccount.js',
-            './tests/loginInvalidEmail.spec.js'
+            //'./tests/loginInvalidEmail.spec.js'
     ],
 
     jasmineNodeOpts: {
