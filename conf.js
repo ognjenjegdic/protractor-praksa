@@ -6,7 +6,7 @@ exports.config = {
 
     baseUrl: 'http://demo.prestashop.com/en/?view=front',
 
-    specs: [//'./tests/loginWithProperAccount.js',
+    specs: ['./tests/loginWithProperAccount.js',
             './tests/loginInvalidEmail.spec.js'
     ],
 
