@@ -4,6 +4,7 @@ describe('Login with proper account', function() {
     let signIn = new signInPage();
 
     it('Should check title on signIn page', function() {
+        browser.manage().deleteAllCookies()
         browser.get(browser.baseUrl);
         browser.switchTo().frame(0);
         browser.sleep(2000);

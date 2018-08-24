@@ -13,7 +13,6 @@ cd protractor-praksa
 
 npm i
 
-webdriver-manager update
 
 Run tests
 -----

@@ -2,7 +2,9 @@ let SpecReporter = require('jasmine-spec-reporter').SpecReporter;
 
 exports.config = {
 
-    seleniumAddress: 'http://localhost:4444/wd/hub',
+    //seleniumAddress: 'http://localhost:4444/wd/hub',
+
+    directConnect: true,
 
     baseUrl: 'http://demo.prestashop.com/en/?view=front',
 
